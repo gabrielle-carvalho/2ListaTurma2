@@ -7,7 +7,7 @@ int main(void){
     printf("Insira a nota 1: ");
     scanf("%f", &nota1);
     
-    printf("Insira a bota 2: ");
+    printf("Insira a nota 2: ");
     scanf("%f", &nota2);
     
     printf("Insira a nota 3: ");
