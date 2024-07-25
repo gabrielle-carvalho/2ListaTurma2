@@ -19,7 +19,7 @@ int main(void)
     totalPaes=paes*0.12;
     totalBroas=broas*1.50;
     
-    arrecadado=(totalBroas+totalPaes);
+    arrecadado=totalBroas+totalPaes;
     
     poupanca=arrecadado*0.10;
     
