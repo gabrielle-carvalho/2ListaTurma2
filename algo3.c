@@ -8,8 +8,8 @@ os dados solicitados.*/
 
 int main(void)
 {
-    int paes, broas, totalPaes, totalBroas;
-    float arrecadado, poupanca;
+    int paes, broas;
+    float arrecadado, poupanca, totalPaes, totalBroas;
     printf("Quantos paes foram vendidos? ");
     scanf("%d", &paes);
     
@@ -19,11 +19,11 @@ int main(void)
     totalPaes=paes*0.12;
     totalBroas=broas*1.50;
     
-    arrecadado=totalBroas+totalPaes;
+    arrecadado=(totalBroas+totalPaes);
     
-    poupanca=(arrecadado*0.10);
+    poupanca=arrecadado*0.10;
     
-    printf("\nO valor a ser guardado na poupança é: %d ", arrecadado);
-    printf("\nO valor a ser guardado na poupança é: %d ", poupanca);
+    printf("\nO valor arrecadado é: %.2f ", arrecadado);
+    printf("\nO valor a ser guardado na poupança é: %.2f ", poupanca);
     return 0;
 }
